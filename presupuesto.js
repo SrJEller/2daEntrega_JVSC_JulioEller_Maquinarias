@@ -1,6 +1,5 @@
 const resumenContainer = document.getElementById("resumen-container");
 
-// Recuperar datos del localStorage
 const presupuesto = JSON.parse(localStorage.getItem("cartMaquinas")) || [];
 
 let total = 0;

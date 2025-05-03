@@ -71,7 +71,7 @@ function addToCartButton() {
         cartMaquinas.push(maquinaParaCarrito);
         localStorage.setItem("cartMaquinas", JSON.stringify(cartMaquinas));
 
-        // Deshabilitar input y botón
+
         inputHoras.disabled = true;
         e.currentTarget.disabled = true;
         e.currentTarget.textContent = "Agregado";

@@ -22,6 +22,18 @@ presupuesto.forEach(maquina => {
     });
 
 const totalElement = document.createElement("h2");
-totalElement.textContent = `Total estimado: $${total}`;
+totalElement.textContent = `Total estimado: ${total}USD $`;
 resumenContainer.appendChild(totalElement);
 }
+
+document.addEventListener("DOMContentLoaded", () => {
+Toastify({
+    text: "Por favor, corroborá tu presupuesto.",
+    duration: 6000,
+    close: true,
+    gravity: "top", 
+    position: "right", 
+    backgroundColor: "#f39c90", 
+    stopOnFocus: true
+}).showToast();
+});

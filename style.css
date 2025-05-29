@@ -66,10 +66,12 @@ body {
 
 .main-presupuesto h2 {
     border: solid 1px;
+    background-color: rgb(209, 240, 230);
     width: 50%;
     margin: 20px auto;
     text-align: center;
 }
+
 
 .main-presupuesto a {
     display: inline-block;
@@ -86,7 +88,7 @@ body {
     transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
-/* FINNNN  XD*/
+
 
 .instructivo-calculadora{
     display: flex;
@@ -118,3 +120,6 @@ footer {
     text-align: center;
     padding: 10px;
 }
+
+/* FINNNN  XD*/
+
